@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join SCYVO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="form-page">
+
+    <a href="index.html" class="logo">SCYVO<span>.</span></a>
+    <br>
+    <a href="index.html" class="back-link">← Back to Home</a>
+
+    <main class="form-box">
+        <p class="section-label">JOIN THE DISCOVERY</p>
+        <h1>Stay curious.</h1>
+
+        <p>
+            Tell us a little about yourself and choose
+            the topic you would like to explore.
+        </p>
+
+        <form action="save.html" method="get">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email"
+                   placeholder="Enter your email" required>
+
+            <label for="interest">Favorite Topic</label>
+            <select id="interest" required>
+                <option value="">Choose a topic</option>
+                <option>Science</option>
+                <option>Space</option>
+                <option>Artificial Intelligence</option>
+                <option>Computer Technology</option>
+            </select>
+
+            <label class="check-row">
+                <input type="checkbox" required>
+                <span>I want to keep exploring science and technology.</span>
+            </label>
+
+            <button type="submit" class="button">
+                Join SCYVO ↗
+            </button>
+
+        </form>
+    </main>
+
+</body>
+</html>
